@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="plazmid.naktelecome">
+    <uses-permission android:name="android.permission.INTERNET" />
+
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/nak_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/nak_icon"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainPageActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name=".DrawerActivity.FactsActivity"
+            android:parentActivityName=".MainPageActivity" />
+        <activity
+            android:name=".DrawerActivity.ContactUsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".IntroActivity"
+            android:theme="@style/Mythme" />
+        <activity
+            android:name=".DrawerActivity.KMActivity"
+            android:finishOnTaskLaunch="true"
+            android:parentActivityName=".MainPageActivity"></activity>
+        <activity
+            android:name=".DrawerActivity.AboutUSActivity"
+            android:parentActivityName=".MainPageActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".SearchActivity" />
+        <activity
+            android:name=".LoginPage"
+            android:theme="@style/Mythme" />
+        <activity android:name=".DrawerActivity.KM_AddRequestActivity" />
+        <activity android:name=".DrawerActivity.FoodActivity"
+            android:parentActivityName=".MainPageActivity"
+            >
+
+        </activity>
+    </application>
+
+</manifest>

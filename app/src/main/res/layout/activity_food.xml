@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f7d56d"
+    android:orientation="vertical"
+    tools:context="plazmid.naktelecome.DrawerActivity.FoodActivity">
+
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/food_title"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/food_icon3"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <WebView
+        android:id="@+id/web_food"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"></WebView>
+
+</LinearLayout>

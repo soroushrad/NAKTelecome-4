@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Vorud_root"
+            android:icon="@drawable/useraccount_icon"
+            android:title="ورود" />
+        <item
+            android:id="@+id/mainPage_root"
+            android:icon="@drawable/home_icon"
+            android:title="صفحه اصلی" />
+        <item
+            android:id="@+id/archive_root"
+            android:icon="@drawable/archive_icon"
+            android:title="ارشیو مطالب " />
+        <item
+            android:id="@+id/facts_root"
+            android:icon="@drawable/facts_icon"
+            android:title="دانستنی ها" />
+        <item
+            android:id="@+id/KM_root"
+            android:icon="@drawable/knowledge_icon"
+            android:title="واحد نواوری" />
+        <item
+            android:id="@+id/aboutus_root"
+            android:icon="@drawable/aboutus_icon"
+            android:title="درباره ما" />
+        <item
+            android:id="@+id/contactus_root"
+            android:icon="@drawable/contactus_icon"
+            android:title="ارتباط باما" />
+    </group>
+
+</menu>
